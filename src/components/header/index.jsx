@@ -10,7 +10,7 @@ function Header() {
   return (
     <HeaderSection>
       <div className="profile">
-        <img src={Breno} alt="" srcset="" />
+        <img src={Breno} alt=""  />
         <h3>Breno Lobianco</h3>
       </div>
 
@@ -18,10 +18,11 @@ function Header() {
         <a href="https://www.linkedin.com/in/breno-lobianco/">
           <img src={lkn} alt="" />
         </a>
-        <a href="https://github.com/brenolobianco">
+        <a href="https://wa.me/5516996225832">
           <img src={Whatsapp} alt="" />
         </a>
-        <a href="https://wa.me/5516996225832">
+       
+        <a href="https://github.com/brenolobianco">
           <img src={Git} alt="" />
         </a>
       </nav>

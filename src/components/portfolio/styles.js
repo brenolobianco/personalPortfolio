@@ -1,72 +1,77 @@
 import styled from "styled-components";
 
 export const PortfolioSection = styled.section`
-  width: 100vw;
   background: whitesmoke;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  @media (max-width:580px){
-
-height:2000px ;
-display:flex ;
-flex-direction:column;
-background:color ;
-}
- 
+  h2 {
+    font-family: open sans, sans-serif;
+    color: black;
+    font-size: 26px;
+    font-weight: 700;
+  }
+  @media (max-width: 480px) {
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+    background: color;
+  }
 `;
 export const PortfolioDecription = styled.div`
-  width: 100vw;
   height: 500px;
   background: whitesmoke;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  gap:80px;
   align-items: center;
-  border-bottom:1px solid #0000001c;
-  @media (max-width:580px){
-width:380px ;
-height:700px ;
-display:flex ;
-flex-direction:column;
-background:color ;
-}
+  border-bottom: 1px solid #0000001c;
+  @media (max-width: 480px) {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    background: color;
+  }
+  @media (max-width: 1624px) {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    background: color;
+  }
   .left-side {
     width: 38%;
-    @media (max-width:580px){
-width:400px ;
-
-}
-  
+    @media (max-width: 480px) {
+      width: 400px;
+    }
   }
   img {
     width: 600px;
     height: 400px;
     border-radius: 10px;
-    border:2px solid #0000001c;
-    @media (max-width:580px){
-width:300px ;
-padding-left:45px;
-height:200px ;
-display:flex ;
-flex-direction:column;
-background:color ;
-}
+    border: 2px solid #0000001c;
+    @media (max-width: 580px) {
+      width: 400px;
+      padding-left: 15px;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      background: color;
+    }
   }
   .right-side {
     width: 450px;
     height: 400px;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 40px;
+    margin-bottom:60px;
     justify-content: center;
     align-items: flex-start;
-    @media (max-width:580px){
-width:300px ;
-
-
-}
+    @media (max-width: 580px) {
+      width: 300px;
+    }
   }
 
   h2 {

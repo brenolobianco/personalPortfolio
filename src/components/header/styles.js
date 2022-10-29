@@ -5,19 +5,20 @@ export const HeaderSection = styled.header`
   position: fixed;
   height: 90px;
   display: flex;
-  justify-content:center;
-  gap:950px;
+  justify-content: center;
+  gap: 950px;
   align-items: center;
   background: linear-gradient(to bottom, #7a19f1, #332179);
   background-attachment: fixed;
   border-bottom: #0000001c 2px solid;
-  @media (max-width:580px){
-width:380px ;
-display:flex ;
-gap:0px;
-justify-content:center ;
-background:color ;
-}
+  @media (max-width: 580px) {
+   
+    display: flex;
+    gap: 0px;
+    justify-content: flex-start;
+    padding-left:15px;
+    background: color;
+  }
 
   .profile {
     display: flex;
@@ -38,27 +39,21 @@ background:color ;
     display: flex;
     justify-content: space-between;
     width: 110px;
-    @media (max-width:580px){
+    @media (max-width: 580px) {
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+      background: color;
+    }
+  }
 
-display:flex ;
-gap:8px;
-justify-content:center ;
-background:color ;
-
-}
-
-
-}
-  
   nav a {
     font-family: open sans, sans-serif;
     transition: padding 0.5s ease-in-out;
     color: #ffff;
-  
-   
   }
   a img {
-    width: 22px;
-    height: 22px;
+    width: 27px;
+    height: 27px;
   }
 `;

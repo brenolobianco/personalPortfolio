@@ -17,8 +17,7 @@ function Portfolio() {
           <h2>Hamburguer</h2>
 
           <p>
-            A platform for automating data collection and reporting throughout
-            teams, operations and supply chains.
+           Hamburgueria, com carrinho de compras. consumindo API
           </p>
           <div className="btns">
             <a href="https://hamburguer-kenzie-aj75.vercel.app/">Visite</a>
@@ -37,8 +36,7 @@ function Portfolio() {
           <h2>Nu-Kenzie</h2>
 
           <p>
-            A platform for automating data collection and reporting throughout
-            teams, operations and supply chains.
+            Plataforma de controle de finanças pessoais. Controle de entrada e saidas de despesas.
           </p>
           <div className="btns">
             <a href="https://atividade-kenzie-9voy.vercel.app/">Visite</a>
@@ -57,8 +55,7 @@ function Portfolio() {
         <div className="right-side">
           <h2>Kenzie Hub</h2>
           <p>
-            A web app that lets users view who is tweeting nearby. Using geocode
-            data, each tweet is pinned on a map where it originated.
+          Rede Social feita para Desenvolvedores. Cadastro de tecnologias e Skilss
           </p>
           <div className="btns">
             <a href="https://kenzie-hub-breno-bzi73dtu0-kenziehamburguer.vercel.app/login">
