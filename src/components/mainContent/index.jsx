@@ -20,7 +20,7 @@ function DescriptionPortfolio() {
                 window.scrollTo(0, 1000);
               }}
             >
-              Portfolio
+              Portfólio
             </button>
             <button
               onClick={() => {

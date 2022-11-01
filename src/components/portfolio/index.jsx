@@ -8,7 +8,7 @@ import { PortfolioSection, PortfolioDecription } from "./styles";
 function Portfolio() {
   return (
     <PortfolioSection>
-      <h2> Portfolio</h2>
+      <h2> Portfólio</h2>
       <PortfolioDecription>
         <div className="left-side">
           <img src={Hamburguer} alt="img projeto" srcset="" />
@@ -23,7 +23,7 @@ function Portfolio() {
           <div className="btns">
             <a href="https://hamburguer-kenzie-aj75.vercel.app/">Visite</a>
             <a href="https://github.com/brenolobianco/hamburguer">
-              Repositorio
+              Repositório
             </a>
           </div>
         </div>
@@ -37,12 +37,12 @@ function Portfolio() {
           <h2>Nu-Kenzie</h2>
 
           <p>
-            Plataforma de controle de finanças pessoais. Controle de entrada e saidas de despesas.
+            Plataforma de controle de finanças pessoais. Controle de entrada e saida de despesas.
           </p>
           <div className="btns">
             <a href="https://atividade-kenzie-9voy.vercel.app/">Visite</a>
             <a href="https://github.com/brenolobianco/hamburguer">
-              Repositorio
+              Repositório
             </a>
           </div>
         </div>
@@ -64,7 +64,7 @@ function Portfolio() {
             </a>
             <a href="
 https://github.com/Kenzie-Academy-Brasil-Developers/entrega-lista-produtos-m2-sprint-1b-brenolobianco">
-              Repositorio
+              Repositório
             </a>
           </div>
         </div>
@@ -77,14 +77,14 @@ https://github.com/Kenzie-Academy-Brasil-Developers/entrega-lista-produtos-m2-sp
         <div className="right-side">
           <h2>Kenzie Hub</h2>
           <p>
-          Rede Social feita para Desenvolvedores. Cadastro de tecnologias e Skilss
+          Rede Social feita para Desenvolvedores. Cadastro de tecnologias e Skils
           </p>
           <div className="btns">
             <a href="https://kenzie-hub-breno-bzi73dtu0-kenziehamburguer.vercel.app/login">
               Visite
             </a>
             <a href="https://github.com/brenolobianco/kenzie-hub-breno">
-              Repositorio
+              Repositório
             </a>
           </div>
         </div>
