@@ -56,7 +56,7 @@ function Portfolio() {
         <div className="right-side">
           <h2>Mercado </h2>
           <p>
-         Mercado De compras
+         Mercado de compras online. 
           </p>
           <div className="btns">
             <a href="https://curly-doodle-77c96492.pages.github.io/">

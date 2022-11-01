@@ -24,10 +24,10 @@ function DescriptionPortfolio() {
             </button>
             <button
               onClick={() => {
-                window.scrollTo(0, 2000);
+                window.scrollTo(0, 50000);
               }}
             >
-              Contatos
+              Contato
             </button>
           </div>
         </DescriptionProfile>
