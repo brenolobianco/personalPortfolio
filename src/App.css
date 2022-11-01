@@ -26,10 +26,13 @@
   }
 }
 
-.card {
+.card p{
   padding: 2em;
+  
 }
-
+.all.h1{
+  color: red;
+}
 .read-the-docs {
   color: #888;
 }
