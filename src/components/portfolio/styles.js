@@ -31,6 +31,7 @@ export const PortfolioDecription = styled.div`
   border-bottom: 1px solid #0000001c;
   @media (max-width: 480px) {
     height: 700px;
+    gap:100px;
     display: flex;
     flex-direction: column;
     background: color;
