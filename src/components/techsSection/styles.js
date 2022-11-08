@@ -11,7 +11,7 @@ padding-bottom:15px;
   height: 400px;
 background:#F1F3F5;  
 .techs{
-@media (max-width:580px){
+@media (max-width:480px){
 width:400px ;
 height:200px ;
 overflow-x:auto;

@@ -10,11 +10,11 @@ export const PortfolioSection = styled.section`
   h2 {
     font-family: open sans, sans-serif;
     color: black;
-    font-size: 26px;
+    font-size: 29px;
     font-weight: 700;
   }
   @media (max-width: 480px) {
-    height: 2000px;
+  
     display: flex;
     flex-direction: column;
     background: color;
@@ -22,10 +22,11 @@ export const PortfolioSection = styled.section`
 `;
 export const PortfolioDecription = styled.div`
   height: 500px;
+
   background: whitesmoke;
   display: flex;
-  justify-content: space-between;
-  gap:80px;
+  
+  gap:220px;
   align-items: center;
   border-bottom: 1px solid #0000001c;
   @media (max-width: 480px) {
@@ -35,9 +36,9 @@ export const PortfolioDecription = styled.div`
     background: color;
   }
   @media (max-width: 1624px) {
-    height: 700px;
+
     display: flex;
-    flex-direction: column;
+   
     background: color;
   }
   .left-side {
@@ -47,7 +48,7 @@ export const PortfolioDecription = styled.div`
     }
   }
   img {
-    width: 600px;
+    width: 640px;
     height: 400px;
     border-radius: 10px;
     border: 2px solid #0000001c;
@@ -69,7 +70,7 @@ export const PortfolioDecription = styled.div`
     margin-bottom:60px;
     justify-content: center;
     align-items: flex-start;
-    @media (max-width: 580px) {
+    @media (max-width: 480px) {
       width: 300px;
     }
   }

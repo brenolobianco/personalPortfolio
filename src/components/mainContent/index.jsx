@@ -8,11 +8,9 @@ function DescriptionPortfolio() {
         <DescriptionProfile>
           <h1>Desenvolvedor Front-End </h1>
           <p>
-            Desenvolvedor Front End, me reconheço como um apaixonado por
-            programação e em novas tecnologias do mercado. Possuo foco em
-            desenvolvimento com Html, Css, Javascript,React JS,API Rest. Me
-            considero ágil e consistente em aprender uma nova linguagem e me
-            adaptar à qualquer mudança, pronto para superar qualquer desafio!
+          Desenvolvedor Front-end, tenho experiência em projetos pessoais. sou um apaixonado por programação e em novas tecnologias do mercado.
+
+Me considero consistente em aprender uma nova linguagem e me adaptar à qualquer mudança. Gosto de desafios e de solucionar problemas. 
           </p>
           <div className="btns">
             <button
@@ -24,10 +22,10 @@ function DescriptionPortfolio() {
             </button>
             <button
               onClick={() => {
-                window.scrollTo(0, 50000);
+                window.scrollTo(0, 500);
               }}
             >
-              Contato
+              Tecnologias
             </button>
           </div>
         </DescriptionProfile>

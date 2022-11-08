@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const MainContent = styled.main`
  
-  height: 75vh;
+  height: 70vh;
   background: whitesmoke;
   display: flex;
   justify-content: center;
@@ -21,18 +21,19 @@ padding-left:10px;
 `;
 export const DescriptionProfile = styled.div`
   padding-top: 70px;
+
+
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  line-height: 30px;
-  background: linear-gradient(to bottom, #7a19f1, #332179);
-  background-attachment: fixed;
+  line-height: 40px;
+
   h1 {
     font-family: open sans, sans-serif;
     font-size: calc(22px + 18 * ((100vw - 576px) / (1200)));
     color: black;
-    font-weight: 700;
+    font-weight: 800;
     text-transform: uppercase !important;
     margin-bottom: 30px;
     color: #ffff;
@@ -66,7 +67,6 @@ background:color ;
     font-family: open sans, sans-serif;
     height: 60px;
     width: 180px;
- 
     background: linear-gradient(180deg, #f2cf00 0%, #f2b200 100%);
     box-shadow: 0 2px 3px rgb(0 0 0 / 50%);
     border: none !important;
@@ -77,7 +77,6 @@ background:color ;
     font-size:22px;
     font-weight: 400;
     color: #212529;
-
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
       border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   }
