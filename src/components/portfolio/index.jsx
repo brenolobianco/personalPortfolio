@@ -3,7 +3,7 @@ import Hamburguer from "../../assets/hamburguer-kenzie.png";
 import KenzieHub from "../../assets/kenzie-hub.png";
 import NuKenzie from "../../assets/nu-kenzie.png";
 import Shop from "../../assets/shop.png";
-import CrudTests from "../../assets/tests.png"
+import CrudTests from "../../assets/tests.jpg"
 import { PortfolioSection, PortfolioDecription } from "./styles";
 
 function Portfolio() {
