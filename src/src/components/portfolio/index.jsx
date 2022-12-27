@@ -3,6 +3,7 @@ import Hamburguer from "../../assets/hamburguer-kenzie.png";
 import KenzieHub from "../../assets/kenzie-hub.png";
 import NuKenzie from "../../assets/nu-kenzie.png";
 import Shop from "../../assets/shop.png";
+import CrudTests from "../../assets/tests.png"
 import { PortfolioSection, PortfolioDecription } from "./styles";
 
 function Portfolio() {
@@ -84,6 +85,24 @@ https://github.com/Kenzie-Academy-Brasil-Developers/entrega-lista-produtos-m2-sp
               Visite
             </a>
             <a href="https://github.com/brenolobianco/kenzie-hub-breno">
+              Repositório
+            </a>
+          </div>
+        </div>
+      </PortfolioDecription>
+      <PortfolioDecription>
+        <div className="left-side">
+          <img src={CrudTests} alt="img projeto"  />
+        </div>
+
+        <div className="right-side">
+          <h2>Crud de Usuario</h2>
+          <p>
+          Projeto Back-end, Crud de usuario utilizando Node Express, typeOrm, typescript e Postgree.
+          </p>
+          <div className="btns">
+            
+            <a href="https://github.com/brenolobianco/crud_user_typeOrm">
               Repositório
             </a>
           </div>

@@ -5,7 +5,8 @@ import LogoReact from "../../assets/logo-react.svg";
 import LogoCss from "../../assets/css-4.svg";
 import LogoJs from "../../assets/js.png";
 import LogoTs from "../../assets/ts.png";
-import LogoApi from "../../assets/download.png";
+import LogoPostGree from "../../assets/postgree.png";
+import LogoNode from "../../assets/node.png"
 
 
 function Techs() {
@@ -18,8 +19,9 @@ function Techs() {
         <img src={LogoCss} alt="css" />
         <img src={LogoJs} alt="js" />
         <img src={LogoTs} alt="ts" />
-        <img src={LogoApi} alt="api" />
-       
+        <img src={LogoNode} alt="node" />
+        <img src={LogoPostGree} alt="postgree" />
+
       </div>
     </TechsSection>
   );
