@@ -8,7 +8,7 @@ function DescriptionPortfolio() {
         <DescriptionProfile>
           <h1> Desenvolvedor Full-Stack</h1>
           <p>
-          Profissional com experiência em projetos de desenvolvimento Web. sou um apaixonado por programação e em novas tecnologias do mercado.
+          Profissionwqddsadadal com experiência em projetos de desenvolvimento Web. sou um apaixonado por programação e em novas tecnologias do mercado.
 Me considero consistente em aprender uma nova linguagem e me adaptar à qualquer mudança. Gosto de desafios e de solucionar problemas. 
           </p>
           <div className="btns">
