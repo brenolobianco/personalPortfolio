@@ -16,10 +16,12 @@ function Portfolio() {
         </div>
 
         <div className="right-side">
-          <h2>Hamburguer</h2>
+          <h2>Hamburgueria</h2>
 
           <p>
-           Hamburgueria, com carrinho de compras. consumindo API
+           Hamburgueria, com carrinho de compras. consumindo API.
+           
+
           </p>
           <div className="btns">
             <a href="https://hamburguer-kenzie-aj75.vercel.app/">Visite</a>
