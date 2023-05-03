@@ -8,7 +8,7 @@ export const HeaderSection = styled.header`
   justify-content: center;
   gap: 950px;
   align-items: center;
-  background: linear-gradient(to bottom, #7a19f1, #332179);
+  background: whitesmoke;
   background-attachment: fixed;
   border-bottom: #0000001c 2px solid;
   @media (max-width: 580px) {
@@ -28,7 +28,7 @@ export const HeaderSection = styled.header`
   }
   h3 {
     font-family: open sans, sans-serif;
-    font-size: 22px;
+    font-size: 22px; color: black;
   }
   img {
     height: 55px;
@@ -53,7 +53,7 @@ export const HeaderSection = styled.header`
     color: #ffff;
   }
   a img {
-    width: 27px;
-    height: 27px;
+    width: 30px;
+    height: 30px;
   }
 `;

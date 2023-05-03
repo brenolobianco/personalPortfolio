@@ -3,26 +3,28 @@ import styled from "styled-components";
 export const TechsSection = styled.section`
   width: 100vw;
   display: flex;
-  justify-content:center ;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   background: whitesmoke;
-padding-bottom:15px;
+  padding-bottom: 15px;
   height: 400px;
-background:#F1F3F5;  
-.techs{
-@media (max-width:480px){
-width:400px ;
-height:200px ;
-overflow-x:auto;
-}
- }
-  h2{
-    color:black ;
-  padding-bottom:100px
+  background: #f1f3f5;
+  .techs {
+    @media (max-width: 480px) {
+      width: 400px;
+      height: 200px;
+      overflow-x: auto;
+    }
+  }
+  h2 {
+    color: black;
+    padding-bottom: 100px;
+    font-size: 29px;
+    font-family: open sans, sans-serif;
   }
   img {
-    height: 150px;
+    height: 110px;
   }
   div {
     display: flex;

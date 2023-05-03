@@ -8,8 +8,12 @@ function DescriptionPortfolio() {
         <DescriptionProfile>
           <h1>Desenvolvedor Web</h1>
           <p>
-          Tenho experiência em projetos Front-end e Back-end. Sou um apaixonado por programação e em novas tecnologias do mercado.
-Me considero consistente em aprender uma nova linguagem e me adaptar à qualquer mudança. Gosto de desafios e de solucionar problemas. 
+            Sou um apaixonado por programação. Me considero consistente em
+            aprender uma nova linguagem e me adaptar à qualquer mudança. Gosto
+            de desafios e de solucionar problemas. Tenho sólido conhecimento em
+            Dokcer, Javascript e PHP e seus principais frameworks:, React.js,
+            Vue.js, Node.js, Laravel. Atualmente trabalho com PHP/Laravel e
+            VueJS na Flouent.
           </p>
           <div className="btns">
             <button
