@@ -13,7 +13,7 @@ function DescriptionPortfolio() {
             de desafios e de solucionar problemas. Tenho sólido conhecimento em
             Dokcer, Javascript e PHP e seus principais frameworks:, React.js,
             Vue.js, Node.js, Laravel. Atualmente trabalho com PHP/Laravel e
-            VueJS na Flouent.
+            React na Clickideia Plataforma Educacional.
           </p>
           <div className="btns">
             <button
